@@ -4,7 +4,7 @@
 
 An authenticated FastAPI document-question-answering API with PDF ingestion, Cohere embeddings, FAISS vector retrieval, Groq response generation, JWT authentication, user-scoped conversations, and defensive AI-provider controls.
 
-![Python](https://img.shields.io/badge/Python-3.11%2B-3776ab?style=for-the-badge&logo=python&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3.13%2B-3776ab?style=for-the-badge&logo=python&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/Web-FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![SQLite](https://img.shields.io/badge/Database-SQLite-003b57?style=for-the-badge&logo=sqlite&logoColor=white)
 ![FAISS](https://img.shields.io/badge/Vector%20Search-FAISS-ff6f00?style=for-the-badge)
@@ -87,19 +87,13 @@ The project is designed to be understandable and runnable by a junior Python or 
 
 ## 🖼️ Screenshots
 
-This backend-only project provides interactive API documentation at:
-
-<http://127.0.0.1:8000/docs>
-
-After starting the API, the Swagger UI can be used to inspect and exercise the available endpoints.
-
 ---
 
 ## 🧰 Tech Stack
 
 ### Core Python
 
-- Python 3.11+
+- Python 3.13+
 - FastAPI
 - Uvicorn
 - Pydantic
@@ -155,7 +149,7 @@ rag-chatbot-api/
 ├── .env.example         # Environment configuration template
 ├── .github/
 │   └── workflows/
-│       └── ci.yml       # Python 3.11 and 3.13 CI test matrix
+│       └── ci.yml       # Python 3.13
 ├── Dockerfile
 ├── requirements.txt
 ├── LICENSE
@@ -194,8 +188,7 @@ The application rejects missing or predictable secret-key values. Generate a ran
 ### Prerequisites
 
 - Windows 10 or Windows 11
-- Python 3.11 or newer
-- Python 3.13.15 recommended
+- Python 3.13 or newer
 - Internet access for the initial dependency installation
 - Cohere and Groq API keys for live AI requests
 
