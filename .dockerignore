@@ -1,0 +1,12 @@
+.env
+.venv/
+__pycache__/
+*.py[cod]
+*.db
+faiss_index.bin
+faiss_meta.json
+.faiss_index_*.tmp
+.faiss_meta_*.tmp
+.git/
+.github/
+tests/

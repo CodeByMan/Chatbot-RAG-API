@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# Environment variables
+.env
+
+# Local runtime data
+rag_app.db
+
+# ChromaDB
+chroma_db/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+SETUP.md
+run.sh
+faiss_index.bin
+faiss_meta.pkl
+faiss_meta.json
+.faiss_index_*.tmp
+.faiss_meta_*.tmp
