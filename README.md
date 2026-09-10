@@ -85,10 +85,6 @@ The project is designed to be understandable and runnable by a junior Python or 
 
 ---
 
-## 🖼️ Screenshots
-
----
-
 ## 🧰 Tech Stack
 
 ### Core Python
